@@ -1,0 +1,37 @@
+package Abnormal;
+
+public class Demo1 {
+    public static void main(String[] args) {
+       // for (int i=0;i<5;i++){
+            try {
+                System.out.println("士大夫十大建安费");
+                int a = 1/0;
+                System.out.println("世界富豪身家");
+            } catch (Exception e) {
+               e.printStackTrace();
+            }finally {
+                System.out.println("关闭l");
+
+//        try {
+////            Object obj = null;
+////            obj.hashCode();
+////            int a = 1/0;
+//        }catch (Exception e) {
+//            e.printStackTrace();
+//        }
+
+//            System.out.println("是的发挥教师的");
+//            int a = 1/0;
+//            System.out.println("士大夫十大");
+//            System.out.println("但是发射点发生");
+//        } catch (NullPointerException e) {
+//            System.out.println("发生了空指针异常，管理员及时处理");
+//        } catch (ArithmeticException e) {
+//            System.out.println("发生了算数异常，管理员及时处理");
+//        } catch (ClassCastException e) {
+//            System.out.println("发生了类转换异常，管理员及时处理");
+
+        }
+    }
+}
+
