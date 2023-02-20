@@ -1,0 +1,21 @@
+package Abnormal;
+
+public class Demo3 {
+    static int avg(int num1,int num2)throws MYExcption{   //定义方法 抛出异常
+        if(num1<0||num2<0){
+            throw new MYExcption("不可以输出负数");
+        }
+        if(num1>100||num2>100){
+            throw new MYExcption("数字太大了");
+        }else
+        return(num1+num2)/2;        //返回参数平均值
+    }
+    public static void main(String[] args) {
+        try {
+            int result = avg(33,66);
+            System.out.println(result);
+        } catch (MYExcption e) {
+            System.out.println(e);    //输出异常信息
+        }
+    }
+}
