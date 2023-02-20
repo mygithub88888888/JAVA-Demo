@@ -1,0 +1,13 @@
+package Abnormal;
+
+public class Demo2 {
+    public static void main(String[] args) {
+//        int a = 10/0;//运算异常
+//       Class c = Class.forName("java.lang.看手机");
+//        System.out.println(c);类的定义异常
+//          int a[] = new int[5];
+//          a[10] = -1;    数组下标越界异常
+//        Object o = null;
+//        o.getClass(); 空指针异常
+    }
+}
